@@ -10,6 +10,9 @@
 		FABD3FCF1E8246A600642841 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD3FCE1E8246A600642841 /* AppDelegate.swift */; };
 		FABD3FD11E8246A600642841 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABD3FD01E8246A600642841 /* Assets.xcassets */; };
 		FABD3FD41E8246A600642841 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FABD3FD21E8246A600642841 /* MainMenu.xib */; };
+		FABD3FDC1E82470600642841 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FABD3FDB1E82470600642841 /* README.md */; };
+		FABD3FDE1E8247C700642841 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD3FDD1E8247C700642841 /* StatusMenuController.swift */; };
+		FABD3FE01E824A7D00642841 /* CommonTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABD3FDF1E824A7D00642841 /* CommonTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +21,9 @@
 		FABD3FD01E8246A600642841 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FABD3FD31E8246A600642841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		FABD3FD51E8246A600642841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FABD3FDB1E82470600642841 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		FABD3FDD1E8247C700642841 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		FABD3FDF1E824A7D00642841 /* CommonTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 				FABD3FD01E8246A600642841 /* Assets.xcassets */,
 				FABD3FD21E8246A600642841 /* MainMenu.xib */,
 				FABD3FD51E8246A600642841 /* Info.plist */,
+				FABD3FDB1E82470600642841 /* README.md */,
+				FABD3FDD1E8247C700642841 /* StatusMenuController.swift */,
+				FABD3FDF1E824A7D00642841 /* CommonTool.swift */,
 			);
 			path = EasyTool;
 			sourceTree = "<group>";
@@ -130,6 +139,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FABD3FDE1E8247C700642841 /* StatusMenuController.swift in Sources */,
+				FABD3FDC1E82470600642841 /* README.md in Sources */,
+				FABD3FE01E824A7D00642841 /* CommonTool.swift in Sources */,
 				FABD3FCF1E8246A600642841 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
